@@ -1,0 +1,22 @@
+.cta-button {
+    background-color: rgb(50, 20, 220); 
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+  }
+
+  .cta-button:hover {
+    background-color: rgba(14, 158, 241, 0.8); 
+  }
+
+  footer {
+    background-color: #222; 
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }

@@ -1,0 +1,23 @@
+.container {
+    border: 5px solid rgb(108, 26, 141);
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    background-color: rgb(224, 158, 216);
+}
+
+.photo {
+    height: 50px;
+    width: 40px;
+    border: 3px solid grey;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 14px;
+    margin-top: 30px;
+}

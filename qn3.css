@@ -1,0 +1,15 @@
+.container {
+    border: 3px solid rgb(7, 2, 78);
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    background-color: rgb(160, 199, 209);
+}
+.owner{
+    font-size: 14px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.cta-button:hover {
+    background-color: rgba(17, 146, 221, 0.8); 
+  }
