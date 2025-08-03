@@ -1,0 +1,33 @@
+
+body{
+    margin: 10;
+}
+nav {
+      background-color: #292929;
+      padding: 1px 0;
+    }
+li{
+    display :inline;
+}
+    .ansh {
+      display:flexbox;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .ansh li a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 12px;
+      transition: all 0.3s ease;
+      font-size: 16px;
+    }
+
+    .ansh li a:hover {
+      color: #ffd700;
+      font-weight: bold;
+      text-decoration: underline;
+    }

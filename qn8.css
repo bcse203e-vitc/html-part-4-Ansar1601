@@ -1,0 +1,48 @@
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #bc56b7;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #f9e3f1;
+  padding: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #af1696;
+}
+
+.sidebar h2 {
+  font-size: 1px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.columns {
+  column-count: 3;
+  column-gap: 400px;
+}
+
+.columns p {
+  margin-bottom: 200px;
+}
