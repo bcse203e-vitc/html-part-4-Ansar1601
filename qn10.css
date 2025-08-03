@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: linear-gradient(to right, #ab4ec8, #e6bbd4);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about, .projects, .contact {
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project-images img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  opacity: 0.8;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.project-images img:hover {
+  opacity: 1;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #ea12a2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #3a3fc0;
+  transform: scale(1.05);
+}
